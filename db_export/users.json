@@ -1,0 +1,31 @@
+[
+  {
+    "name": "System Administrator",
+    "email": "admin@parking.com",
+    "password_hash": "scrypt:32768:8:1$ZIF83jGKCHTTftgQ$173c3d4288023eb35f058220579fe0778dcda0eda5699040bc2bab7753fad9f5949cdb86b6a3349d6518445a96492398685255ed2dd853eb34744679ca0f2fdf",
+    "role": "admin",
+    "saved_locations": [],
+    "created_at": {
+      "$date": "2026-10-28T16:00:00Z"
+    },
+    "_id": {
+      "$oid": "6ae21cd023b7f6025ba494da"
+    }
+  },
+  {
+    "name": "Demo Driver",
+    "email": "user@parking.com",
+    "password_hash": "scrypt:32768:8:1$DVi3e2ksYiARtGR7$ac1a39d9c8142fb5a44c20ef60c02c520c0f4b846e0564e90a799b34621e864414d30357159500052329739539a0b7a3eb79650e5b685946718f552bef28c87c",
+    "role": "user",
+    "saved_locations": [
+      "Walthamstow",
+      "Stratford"
+    ],
+    "created_at": {
+      "$date": "2026-10-28T16:00:00Z"
+    },
+    "_id": {
+      "$oid": "6ae21cd023b7f6025ba494db"
+    }
+  }
+]
